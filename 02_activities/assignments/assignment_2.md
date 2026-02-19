@@ -10,26 +10,44 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+    
+    Good Visualization: Line Chart (Time-Series Trend)
+
+Example: Line Chart – https://datavizproject.com/data-type/line-chart
+
+Reasons:
+
+1. Perceptual Quality
+Effectively uses position along a common scale (y-axis) and horizontal time progression (x-axis), which research by Cleveland & McGill (1984) identifies as one of the most accurate visual encodings for quantitative comparison. Viewers can easily detect trends, peaks, and declines because humans are highly sensitive to changes in slope and direction.
+2. Substantive Quality
+Accurately represents continuous data over time without distorting magnitude. When axes begin at logical baselines and intervals are evenly spaced, the chart honestly communicates rate of change, seasonality, and long-term patterns. It supports analytical tasks such as identifying growth trends or sudden shifts.
+3. Aesthetic Quality
+Clean layout with limited colors and minimal gridlines enhances readability. When designed well, line charts balance simplicity with clarity, allowing the viewer to focus on the narrative of change rather than decorative elements.
+
+Improvements:
+
+1. Add subtle annotations (e.g., markers for key events) to provide context without clutter.
+2. Ensure color contrast is sufficient for accessibility and use distinct line styles (dashed/solid) for viewers with color vision deficiencies.
+
+Bad Visualization: Radar (Spider) Chart
+
+Example: Radar Chart – https://datavizproject.com/data-type/radar-chart
+
+Reasons:
+
+1. Perceptual Quality
+Radar charts rely on angle and area comparison, which are perceptually weak encodings. It is difficult for viewers to accurately compare values across axes because there is no shared linear baseline. Small differences can appear exaggerated depending on axis scaling.
+2. Substantive Quality
+When multiple variables are plotted, overlapping shapes can obscure data and make interpretation confusing. Differences between categories may look dramatic due to the polygon shape rather than actual numeric variation, which risks misleading interpretation.
+3. Aesthetic Quality
+While visually striking, radar charts often become cluttered when multiple categories are displayed. The radial layout can overwhelm viewers, especially when labels are small or densely packed.
+
+Improvements:
+
+1. Replace with a grouped bar chart or parallel coordinates plot to improve comparability using aligned scales.
+2. Limit the number of variables and clearly label each axis with consistent scaling to reduce distortion.    
 
 
-
-
-
-
-
-      ```
-    - How could this data visualization have been improved?  
-      ```
-      Your answer...
-
-
-
-
-
-
-      
-      ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
 300 words for your good example and 500 for your bad example)
 
